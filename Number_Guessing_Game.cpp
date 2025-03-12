@@ -1,7 +1,22 @@
 #include<iostream>
 using namespace std;
      int count;
-  void Guessing_game(int number,int guessing_number);
+  void Guessing_game(int number,int guessing_number){
+    if(number!=guessing_number){
+     count++;
+    }
+    if(number==guessing_number){
+     cout<<"Congratulations! You guessed the number in "<<count<<" attempts!"<<endl;
+    }
+    else{
+     if(number>guessing_number){
+         cout<<"Too high! Try again."<<endl;
+     }
+     else{
+         cout<<"Too Low! Try again."<<endl;
+     }
+    }
+  }
 int main(){
     int number,choice;
     string option;
