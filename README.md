@@ -9,6 +9,9 @@ A simple and interactive number guessing game where the player tries to guess a 
 - Tracks the number of attempts taken to guess the correct number.
 - Simple and clean codebase, easy to understand and extend.
 
+## Technologies Used
+  **Programming Language:** C++
+
 ## How to Play
 1. Clone the repository to your local machine.
-git clone https://github.com/your-username/number-guessing-game.git
+git clone https://github.com/sagarkumarpatel/Number-Guessing-Game.git
